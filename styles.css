@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poor+Story&display=swap');
+
+* {
+    color: red;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    color: purple;
+}
+
+#my-link {
+    color: green;
+}
+
+.my-list {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2:hover {
+    text-transform: uppercase;
+}
+
+
+h3:active {
+    text-decoration: underline; color: green;
+}
+
+button:target {
+    color: orange;
+    font-size: 50px;
+}
